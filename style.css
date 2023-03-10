@@ -301,3 +301,24 @@
   right: -9%;
   top: 16%;
 }
+
+.service_section3_wrapper {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin: 20px 0;
+  padding: 40px 100px;
+}
+
+.service_section3_container {
+  display: flex;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.service_section3_container img {
+  height: 450px;
+}
