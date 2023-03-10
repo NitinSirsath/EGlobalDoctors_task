@@ -356,3 +356,19 @@
   margin: 0;
   color: grey;
 }
+
+.review_section_container {
+  margin-top: 50px;
+  padding: 40px;
+}
+
+.review_section_card_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 80px;
+}
+
+.review_section_card {
+  padding: 20px;
+  width: 25%;
+}
