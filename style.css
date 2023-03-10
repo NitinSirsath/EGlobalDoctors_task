@@ -252,11 +252,11 @@
   flex: 0.5;
 }
 
-.services_card p {
+.services p {
   margin: 20px 0;
   font-size: 18px;
 }
-.services_card h6 {
+.services h6 {
   margin: 20px 0;
   color: #3fd5d5;
 }
@@ -271,4 +271,15 @@
   position: absolute;
   bottom: 0;
   left: 5%;
+}
+
+.services_section2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  padding: 40px 100px;
+}
+
+.services_section2 img {
+  height: 400px;
 }
