@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
-  padding: 13px 100px;
+  padding: 15px 100px;
   color: white;
   font-size: 14px;
 }
@@ -24,7 +24,7 @@
 
 .navbarListItems {
   /* margin-left: auto!important; */
-  margin-right: 8px;
+  margin-right: 10px;
 }
 
 .navbarListItems a {
@@ -45,4 +45,184 @@
   border-radius: 5px;
   font-size: 17px;
   font-weight: 500;
+}
+
+.homeSectionContainer {
+  display: flex;
+  margin: 20px;
+  padding: 100px 20px 100px 100px;
+  align-items: center;
+  background-color: #d5deff;
+}
+
+.homeSectionLeftSide {
+  flex: 0.5;
+}
+
+.homeSectionRightSide {
+  flex: 0.5;
+}
+
+.homeSectionLeftSide h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.phoneContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.rightHomeSectionImgContainer {
+  position: relative;
+}
+
+.rightHomeSectionElement1 {
+  transform: rotate(0.5turn);
+  margin-right: 20px;
+  height: 500px;
+}
+
+.rightHomeSectionElement2 {
+  height: 500px;
+}
+
+.rightHomeSectionMainBG {
+  position: absolute;
+  top: 0;
+  right: 16%;
+
+  background-color: #dbccff;
+}
+
+.homeSectionStars1 {
+  position: absolute;
+  top: 0;
+  left: 10%;
+}
+.homeSectionStars2 {
+  position: absolute;
+  bottom: 15%;
+  right: 8%;
+}
+
+@media only screen and (max-width: 768px) {
+  .homeSectionContainer {
+    flex-direction: column;
+    padding: 100px 20px 100px 20px;
+  }
+  .homeSectionLeftSide {
+    margin-bottom: 20px;
+  }
+  .homeSectionRightSide {
+    margin-bottom: 20px;
+  }
+  .rightHomeSectionMainBG {
+    right: 0;
+  }
+  .homeSectionStars1 {
+    left: 0;
+  }
+  .homeSectionStars2 {
+    right: 0;
+  }
+  .rightHomeSectionImgContainer img {
+    display: none;
+  }
+  .address {
+    display: none;
+  }
+
+  .navbarContainer {
+    padding: 0px 20px;
+  }
+
+  .headerContact {
+    padding: 15px 20px;
+  }
+
+  .homeSectionLeftSide h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .homeSectionContainer {
+    padding: 40px 10px 40px 10px;
+  }
+  .homeSectionLeftSide {
+    flex-direction: column;
+  }
+}
+
+.cosmotology_section {
+  margin-top: 100px;
+}
+
+.cosmotology_section h3 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.cosmotology_section h6 {
+  margin: 20px 0;
+  text-align: center;
+  color: #3fd5d5;
+}
+
+.cosmotology_section p {
+  margin: 20px 0;
+  text-align: center;
+  color: gray;
+}
+
+.cosomotology_card_container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.cosmotology_section h3 {
+  font-size: 28px;
+}
+
+.cosmotology_para {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.cosmotology_card {
+  width: 390px;
+  text-align: center;
+}
+
+.cosmotology_card h4 {
+  margin-top: 50px;
+  font-size: 22px;
+}
+
+.consmotology_img_container {
+  position: relative;
+}
+
+.cosmotology_card_img {
+  height: 350px;
+}
+
+.cosmotology_card_imgBg {
+  position: absolute;
+  height: 120px;
+  bottom: -13%;
+  left: 35%;
+}
+
+.cosmotology_card_imgBgback {
+  position: absolute;
+  bottom: 0%;
+  left: 45%;
+  height: 60px;
 }
