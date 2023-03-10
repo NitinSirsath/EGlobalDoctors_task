@@ -275,11 +275,29 @@
 
 .services_section2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: 20px 0;
   padding: 40px 100px;
 }
 
-.services_section2 img {
+.section2_bg_img {
   height: 400px;
+}
+.service2_img_container {
+  position: relative;
+}
+
+.section2element {
+  position: absolute;
+  height: 300px;
+  right: -7%;
+  top: -9%;
+  z-index: -1;
+}
+
+.section2element2stars {
+  position: absolute;
+
+  right: -9%;
+  top: 16%;
 }
