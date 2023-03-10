@@ -372,3 +372,12 @@
   padding: 20px;
   width: 25%;
 }
+
+.hand_section_container {
+  margin: 20px;
+
+  background-color: #ddeffd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
