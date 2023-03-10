@@ -381,3 +381,10 @@
   justify-content: center;
   align-items: center;
 }
+
+.covid_section_container {
+  margin: 50px;
+  padding: 40px 100px;
+  border: 1px solid lightgray;
+  border-radius: 1px;
+}
