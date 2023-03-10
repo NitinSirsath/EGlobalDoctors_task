@@ -322,3 +322,37 @@
 .service_section3_container img {
   height: 450px;
 }
+
+.price_section_container {
+  margin: 20px;
+  background-color: #eee7ff;
+  padding: 70px;
+}
+
+.price_section_card_container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.price_section_card {
+  padding: 20px;
+  background-color: white;
+}
+
+.price_section_card img {
+}
+
+.price_section_card_feature {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.price_section_card_feature p {
+  margin: 0;
+  color: grey;
+}
