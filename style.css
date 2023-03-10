@@ -38,7 +38,7 @@
 }
 
 .navbarButton {
-  background-color: #35e0d1;
+  background-color: #5cd8df;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -225,4 +225,50 @@
   bottom: 0%;
   left: 45%;
   height: 60px;
+}
+
+.services_container {
+  margin: 30px;
+  padding: 40px;
+  background-color: #e1f9f8;
+}
+
+.services_card {
+  display: flex;
+}
+
+.services_card_left {
+  flex: 0.5;
+  position: relative;
+}
+.services_card_img {
+  height: 450px;
+  position: absolute;
+  top: -20%;
+  left: 7%;
+}
+
+.services_card_right {
+  flex: 0.5;
+}
+
+.services_card p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+.services_card h6 {
+  margin: 20px 0;
+  color: #3fd5d5;
+}
+
+.service_card_features_card_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.services_stars {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
 }
