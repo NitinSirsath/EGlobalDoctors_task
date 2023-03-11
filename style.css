@@ -217,13 +217,13 @@
 .cosmotology_card_imgBg {
   position: absolute;
   height: 120px;
-  bottom: -13%;
+  bottom: -27%;
   left: 35%;
 }
 
 .cosmotology_card_imgBgback {
   position: absolute;
-  bottom: 0%;
+  bottom: 8%;
   left: 45%;
   height: 60px;
 }
@@ -667,6 +667,21 @@
 }
 
 @media screen and (max-width: 468px) {
+
+  .cosmotology_card_imgBg{
+    position: absolute;
+    height: 112px;
+    bottom: -23%;
+    left: 31%;
+}
+  }
+  .cosmotology_card_imgBgback{
+    position: absolute;
+    bottom: -4%;
+    left: 42%;
+    height: 60px;
+  }
+
   .cosmotology_card_img {
     height: 200px;
   }
