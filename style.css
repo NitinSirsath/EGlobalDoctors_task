@@ -665,3 +665,73 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 468px) {
+  .cosmotology_card_img {
+    height: 200px;
+  }
+  .section2_bg_img {
+    height: 230px;
+  }
+
+  .handsImg {
+    height: 200px;
+  }
+
+  .footer_section_content_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .review_section_card_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 8px;
+  }
+
+  .service_section3_container img {
+    display: none;
+  }
+
+  .service_section3_wrapper {
+    padding: 10px 20px;
+  }
+  .service_section3_container {
+    gap: 10px;
+  }
+  .sectionlastInfo {
+    padding: 20px;
+  }
+
+  .price_section_container {
+    padding: 20px;
+  }
+
+  .price_info {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .covid_section_container {
+    padding: 20px;
+    margin: 40px 10px;
+  }
+  /* .navbarButton {
+    padding: 10px 20px;
+  } */
+  .nav_contact {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.sectionlastInfo {
+  width: 100%;
+  padding: 10px;
+}
+
+.price_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
