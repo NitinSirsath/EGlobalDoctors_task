@@ -438,6 +438,14 @@
   height: 260px;
 }
 
+.covid_section_info_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
 .insurance_section_container {
   margin: 20px;
   padding: 40px;
@@ -476,6 +484,9 @@
 
 .footer_section_timing_container {
   width: 250px;
+}
+.covid_section_info_container_card {
+  width: 50%;
 }
 
 /* all responsive */
@@ -554,6 +565,33 @@
   .hand_section_info {
     padding: 20px;
   }
+
+  .covid_section_info_container {
+    flex-direction: column;
+  }
+  .covid_section_info_container_card {
+    width: 100%;
+  }
+  .news_stories_section {
+    flex-direction: column;
+  }
+  .news_stories_card {
+    width: 100%;
+  }
+  .news_stories_bg1 {
+    height: 350px;
+  }
+  .news_stories_bg2 {
+    height: 350px;
+  }
+  .news_stories_bg3 {
+    height: 350px;
+  }
+
+  .footer_section_content_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -583,5 +621,47 @@
   }
   .footer_section_content_wrapper {
     flex-direction: column;
+  }
+
+  .cosomotology_card_container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cosmotology_card {
+    width: 100%;
+  }
+
+  .cosmotology_card_img {
+    height: 500px;
+  }
+
+  .cosmotology_section {
+    padding: 20px 50px;
+  }
+
+  .services_section2 {
+    padding: 3px;
+  }
+  .section2_bg_img {
+    height: 430px;
+  }
+  .section2element {
+    display: none;
+  }
+  .section2element2stars {
+    display: none;
+  }
+
+  .services_section2_info {
+    width: 93%;
+    padding: 20px;
+  }
+
+  .handsImg {
+    height: 400px;
+  }
+
+  .hand_section_container {
+    margin: 0;
   }
 }
