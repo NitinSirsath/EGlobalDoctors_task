@@ -453,3 +453,23 @@
 .insurance_section_card_container {
   width: 50%;
 }
+
+.footer_section_container {
+  margin: 20px;
+  padding: 40px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer_section_content_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.footer_section_timing_container {
+  width: 250px;
+}
