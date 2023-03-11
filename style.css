@@ -97,6 +97,7 @@
   position: absolute;
   top: 0;
   right: 16%;
+  height: 450px;
 
   background-color: #dbccff;
 }
@@ -411,6 +412,9 @@
   background-color: #3fd5d5;
   color: white;
 }
+.hand_section_container {
+  width: 50%;
+}
 
 .news_stories_bg1 {
   background-image: url(./images/newsAndStories/blog-1.webp);
@@ -472,4 +476,112 @@
 
 .footer_section_timing_container {
   width: 250px;
+}
+
+/* all responsive */
+
+@media screen and (max-width: 1068px) {
+  .rightHomeSectionMainBG {
+    height: 350px;
+  }
+
+  .rightHomeSectionElement1 {
+    height: 300px;
+  }
+  .rightHomeSectionElement2 {
+    height: 300px;
+  }
+  .cosomotology_card_container {
+    gap: 20px;
+  }
+
+  .services_card_img {
+    height: 300px;
+    top: 0%;
+  }
+
+  .section2_bg_img {
+    height: 250px;
+  }
+
+  .hand_section_container {
+  }
+  .news_stories_section {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .services_card_img {
+    display: none;
+  }
+  .services_card_left {
+    flex: 0;
+  }
+  .services_card_right {
+    flex: 1;
+    width: 100%;
+  }
+  .services_section2 {
+    flex-direction: column-reverse;
+  }
+  .section2_bg_img {
+    height: 450px;
+  }
+  .services_section2_info {
+    width: 100%;
+  }
+
+  .price_section_card_container {
+    flex-direction: column;
+  }
+
+  .review_section_card_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .review_section_card {
+    width: 100%;
+  }
+  .hand_section_container {
+    flex-direction: column;
+  }
+
+  .hand_section_container {
+    width: 100%;
+    /* text-align: center; */
+  }
+  .hand_section_info {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services_section2 {
+    flex-direction: column;
+  }
+  .service_section3_container {
+    flex-direction: column;
+  }
+  .service_section3_container img {
+    height: 250px;
+  }
+  .review_section_card_container {
+    flex-direction: column;
+  }
+  .review_section_card {
+    width: 100%;
+  }
+  .news_stories_section {
+    flex-direction: column;
+  }
+  .news_stories_card {
+    width: 100%;
+  }
+  .insurance_section_card_container {
+    width: 100%;
+  }
+  .footer_section_content_wrapper {
+    flex-direction: column;
+  }
 }
