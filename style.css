@@ -126,6 +126,7 @@
   }
   .rightHomeSectionMainBG {
     right: 0;
+    height: 200px;
   }
   .homeSectionStars1 {
     left: 0;
@@ -134,7 +135,8 @@
     right: 0;
   }
   .rightHomeSectionImgContainer img {
-    display: none;
+    /* display: none; */
+    height: 200px;
   }
   .address {
     display: none;
@@ -217,13 +219,13 @@
 .cosmotology_card_imgBg {
   position: absolute;
   height: 120px;
-  bottom: -27%;
+  bottom: -13%;
   left: 35%;
 }
 
 .cosmotology_card_imgBgback {
   position: absolute;
-  bottom: 8%;
+  bottom: 0%;
   left: 45%;
   height: 60px;
 }
@@ -320,7 +322,7 @@
   gap: 100px;
 }
 
-.service_section3_container img {
+.section3_img {
   height: 450px;
 }
 
@@ -376,11 +378,11 @@
 
 .hand_section_container {
   margin: 20px;
-
   background-color: #ddeffd;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0px 40px;
 }
 
 .covid_section_container {
@@ -413,7 +415,7 @@
   color: white;
 }
 .hand_section_container {
-  width: 50%;
+  /* width: 50%; */
 }
 
 .news_stories_bg1 {
@@ -666,16 +668,22 @@
   }
 }
 
-@media screen and (max-width: 468px) {
+@media only screen and (max-width: 468px) {
+  .rightHomeSectionMainBG {
+    left: -8%;
+  }
+  .homeSectionStars2 {
+    /* height: 20px; */
+    display: none;
+  }
 
-  .cosmotology_card_imgBg{
+  .cosmotology_card_imgBg {
     position: absolute;
     height: 112px;
     bottom: -23%;
     left: 31%;
-}
   }
-  .cosmotology_card_imgBgback{
+  .cosmotology_card_imgBgback {
     position: absolute;
     bottom: -4%;
     left: 42%;
@@ -699,12 +707,12 @@
   }
 
   .review_section_card_container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
     padding: 8px;
   }
 
-  .service_section3_container img {
+  .section3_img {
     display: none;
   }
 
